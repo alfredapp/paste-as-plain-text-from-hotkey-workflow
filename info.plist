@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.pasteasplaintext</string>
+	<key>connections</key>
+	<dict>
+		<key>816667CB-E309-42DA-A6AE-856C215E2717</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E244FEC6-9942-4EC6-A9D8-BBE08A039FDB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vero Pepperrell</string>
+	<key>description</key>
+	<string>Paste your clipboard content as plain text from a hotkey</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Paste as Plain Text from Hotkey</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>2</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>8</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>C</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>816667CB-E309-42DA-A6AE-856C215E2717</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<true/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E244FEC6-9942-4EC6-A9D8-BBE08A039FDB</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Paste as Plain Text
+
+This very simple workflow allows you to set a hotkey to paste the contents of your macOS clipboard as plain text, stripping it of any formatting.
+
+![Paste as Plain Text workflow](workflow-canvas.png)
+
+## Usage
+
+Double-click the Hotkey object and set a hotkey combo of your choice.
+
+The workflow assumes that you've already granted Alfred the necessary Accessibility permissions:
+https://www.alfredapp.com/help/getting-started/permissions/</string>
+	<key>uidata</key>
+	<dict>
+		<key>816667CB-E309-42DA-A6AE-856C215E2717</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Set the hotkey here to paste your clipboard content as plain text.</string>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>E244FEC6-9942-4EC6-A9D8-BBE08A039FDB</key>
+		<dict>
+			<key>note</key>
+			<string>The Clipboard object is set to automatically paste the content to the frontmost app.</string>
+			<key>xpos</key>
+			<real>280</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>version</key>
+	<string>2022.1</string>
+	<key>webaddress</key>
+	<string>https://www.alfredapp.com</string>
+</dict>
+</plist>
