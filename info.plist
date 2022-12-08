@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.pasteasplaintext</string>
+	<string>com.alfredapp.vero.pasteasplaintext</string>
 	<key>connections</key>
 	<dict>
 		<key>816667CB-E309-42DA-A6AE-856C215E2717</key>
@@ -120,8 +120,8 @@ https://www.alfredapp.com/help/getting-started/permissions/</string>
 	<key>userconfigurationconfig</key>
 	<array/>
 	<key>version</key>
-	<string>2022.1</string>
+	<string>2022.2</string>
 	<key>webaddress</key>
-	<string>https://www.alfredapp.com</string>
+	<string>https://github.com/alfredapp/paste-as-plain-text-from-hotkey-workflow/</string>
 </dict>
 </plist>
