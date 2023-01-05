@@ -4,7 +4,7 @@ This very simple workflow allows you to set a hotkey to paste the contents of yo
 
 ![Paste as Plain Text workflow](workflow-canvas.png)
 
-<a href='https://github.com/alfredapp/paste-as-plain-text-from-hotkey/releases/latest/download/paste-as-plain-text.alfredworkflow'>⤓ Download Workflow</a>
+[⤓ Install From the Alfred Gallery](https://alfred.app/workflows/alfredapp/paste-as-plain-text-from-hotkey/)
 
 ## Usage
 
